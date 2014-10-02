@@ -29,6 +29,7 @@ if (mouseX < 100) {
 }
 
 if (mouseX < 100) {
+  fill(249,229,158)
   rect(0, 250, 100, 100);
 } else if (mouseX < 200){
   rect(10, 250, 100, 100);
@@ -43,6 +44,7 @@ if (mouseX < 100) {
 } else if (mouseX < 700){
   rect(500, 250, 100, 100);    
 } else {
+  fill(249,229,158)
   rect(700, 250, 100, 100);
 }
 
